@@ -1,0 +1,13 @@
+.InputResult {
+    margin-top: 20px;
+}
+
+.InputResult span {
+    font-size: 60px;
+    color: #000000;
+    margin-left: 30px;
+}
+
+.InputResult span:first-child {
+    margin-left: 0;
+}

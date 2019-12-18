@@ -1,0 +1,12 @@
+.Input {
+    font-weight: 600;
+    border: none;
+    width: 300px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 20px;
+    color: #ffa200;
+    background: #413c69;
+}

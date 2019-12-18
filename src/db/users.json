@@ -1,0 +1,30 @@
+[
+    {
+        "id": 0,
+        "name": "Andy",
+        "lastName": "Valio",
+        "age": 19,
+        "email": "andyvalio@gmail.com"
+    },
+    {
+        "id": 1,
+        "name": "Mary",
+        "lastName": "Bsery",
+        "age": 16,
+        "email": "marybsery@gmail.com"
+    },
+    {
+        "id": 2,
+        "name": "Dilmah",
+        "lastName": "Jacks",
+        "age": 28,
+        "email": "dilmahjacks@gmail.com"
+    },
+    {
+        "id": 3,
+        "name": "Milano",
+        "lastName": "Patricio",
+        "age": 36,
+        "email": "milanopatricio@gmail.com"
+    }
+]
