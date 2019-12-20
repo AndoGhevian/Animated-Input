@@ -7,18 +7,12 @@ const InputResult = (props) => {
     return (
         <div className={classes.InputResult}>
             <Transition items={props.characters} keys={character => character.id}
-                from={{ opacity: 0 }}
-                enter={{ opacity: 1 }}
-                leave={{ opacity: 0 }}
-                config={(key, state) => {
-                    if (state === 'leave') {
-                        return { precision: 1 }
-                    }
-                }} >
+                from={{ /* transform: 'translateY(-100px)', */ opacity: 0 }}
+                enter={{ /* transform: 'translateY(0)', */ opacity: 1 }}
+                leave={{/*  transform: 'translateY(-100px)', */ opacity: 0 }} >
                 {(character, state) => props => {
-                    console.log(props)
                     return (
-                        <span style={props}>{character.value}</span>
+                        <p style={props}>{character.value}</p>
                     )
                 }}
             </Transition>

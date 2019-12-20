@@ -1,13 +1,16 @@
 .InputResult {
-    margin-top: 20px;
+    margin-top: 120px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.InputResult span {
+.InputResult p {
     font-size: 60px;
     color: #000000;
     margin-left: 30px;
 }
 
-.InputResult span:first-child {
+.InputResult p:first-child {
     margin-left: 0;
 }
